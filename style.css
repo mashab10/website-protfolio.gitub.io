@@ -1,0 +1,69 @@
+body{
+    font-family: sans-serif;
+  margin: 0;
+}
+h1{
+    font-size: 50px;
+  
+}
+.violet{
+    color: blueviolet;
+}
+.box1{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding: 2%;
+}
+.box1 img{
+    width: 100%;
+}
+.top-banner{
+    background-image: url(developer-portfolio/top-banner.png);
+    background-repeat: no-repeat;
+  
+}
+section{
+    height: 500px;  
+    padding-top: 100px; 
+}
+.link-button{
+    text-decoration: none;
+    font-size: ;
+   background-image: linear-gradient( 60deg, blueviolet,skyblue);
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700px;
+
+}
+.dream-area{
+    background-image: url(developer-portfolio/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+.single-experiences{
+  box-shadow: 10px 5px 30px gray;
+  border-radius: 10px;
+  height: 50%;
+}
+.experience-area{
+    background-image: url(developer-portfolio/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#mern-stack{
+    border-left: 7px solid;
+    border-bottom:7px solid ;
+    border-image: linear-gradient(45deg,lightsalmon, tomato);
+    border-image-slice: 1;
+}
+#baby{
+    border-left: 7px solid;
+    border-bottom: 7px solid;
+    border-image: linear-gradient(45deg,violet, cyan );
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
+}
